@@ -65,4 +65,4 @@ private
     params.require(:customer).permit(:first_name, :last_name,
                             :phone, :email, :street, :zip, :city)
   end
- 
+end
