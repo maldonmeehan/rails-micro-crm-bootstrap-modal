@@ -1,24 +1,60 @@
-# README
+#AJAX Bootstrap Modals in Rails 4
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Ruby on Rails and Bootstrap Modal Lesson
 
-Things you may want to cover:
+full lesson will be can be found here http://www.benkirane.ch/ajax-bootstrap-modals-rails/
 
-* Ruby version
+## Setup/Installation Requirements
 
-* System dependencies
+```
+$ git clone https://github.com/maldonmeehan/rails-micro-crm-bootstrap-modal.git
+```
 
-* Configuration
+Install required gems:
+```
+$ bundle
+```
 
-* Database creation
+Run Postgres:
+```
+$ postgres
+```
 
-* Database initialization
+Open a new window and run:
+```
+$ rake db:create
+```
 
-* How to run the test suite
+```
+rake db:migrate
+```
+```
+$ rake db:seed
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+$ rails s
+```
 
-* Deployment instructions
+Navigate to `http://localhost:3000` in your browser of choice.
 
-* ...
+## Known Bugs
+
+No known bugs at this point
+
+## Support and contact details
+
+If you have any questions please feel free to contact Maldon on github
+
+## Technologies Used
+
+* Ruby on Rails
+* AJAX
+* Postgres
+* Bootstrap
+
+### License
+
+MIT License
+
+Copyright (c) 2016, **Maldon Meehan**
